@@ -1,22 +1,14 @@
 {
   "size": {
     "font": {
-      "small" : {
-        "value": "0.75",
-        "comment": "the small size of the font"
-      },
-      "medium": {
-        "value": "1",
-        "comment": "the medium size of the font"
-      },
-      "large" : {
-        "value": "2",
-        "comment": "the large size of the font"
-      },
-      "base"  : {
-        "value": "{size.font.medium.value}",
-        "comment": "the base size of the font"
-      }
+      "tiny"  : { "value": "0.75" },
+      "small" : { "value": "0.875" },
+      "medium": { "value": "1" },
+      "large" : { "value": "1.25" },
+      "xl"    : { "value": "1.5" },
+      "xxl"   : { "value": "2" },
+      "xxxl"  : { "value": "3" },
+      "base"  : { "value": "{size.font.medium.value}" }
     }
   }
 }
