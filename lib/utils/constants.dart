@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:movies_app_flutter/screens/home_screen.dart';
 import 'package:sizer/sizer.dart';
+import 'package:movies_app_flutter/unique_file/style_dictionary.dart';
 
 final GlobalKey<HomeScreenState> kHomeScreenKey = GlobalKey();
 
@@ -35,7 +36,7 @@ const kMainBlueColor = Color(0xFF2C78C5);
 const kMainPinkColor = Color(0xFFE84CAF);
 
 //const kPrimaryColor = Color(0xFF101010);
-const kPrimaryColor = Color(0xFF101010);
+const kPrimaryColor = StyleDictionary.colorBackgroundButtonPrimaryActive;
 const kLightGrey = Color(0xFF545454);
 const kAppBarColor = Color(0xFF1C1C1C);
 const kTextShadowColor = Color(0x4D000000);
@@ -52,6 +53,7 @@ final kTextShadow = [
 
 final kBoxShadow = [
   BoxShadow(
+    //color: StyleDictionary.colorBackgroundAlt,
     color: kPrimaryColor,
     spreadRadius: 5,
     blurRadius: 30.sp,

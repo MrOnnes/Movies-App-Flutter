@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 19 Sep 2022 06:57:27 GMT
+// Generated on Mon, 19 Sep 2022 07:30:35 GMT
 
 
 #import "StyleDictionaryIcons.h"
