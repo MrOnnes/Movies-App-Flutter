@@ -49,12 +49,12 @@
     "basic": {
       "red": {
         "50": {
-          "value": "#ffebee",
+          "value": "#17c445",
           "type": "color",
           "filePath": "tokens/tokens_copy.json",
           "isSource": true,
           "original": {
-            "value": "#ffebee",
+            "value": "#17c445",
             "type": "color"
           },
           "name": "colors_basic_red_50",
@@ -73,5 +73,13 @@
         }
       }
     }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "borderWidth",
+      "opacity",
+      "colors"
+    ]
   }
 }
