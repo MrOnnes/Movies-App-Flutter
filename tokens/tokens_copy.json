@@ -17,10 +17,18 @@
     "basic": {
       "red": {
         "50": {
-          "value": "#ffebee",
+          "value": "#941427",
           "type": "color"
         }
       }
     }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "borderWidth",
+      "opacity",
+      "colors"
+    ]
   }
 }
