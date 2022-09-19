@@ -36,7 +36,7 @@ const kMainBlueColor = Color(0xFF2C78C5);
 const kMainPinkColor = Color(0xFFE84CAF);
 
 //const kPrimaryColor = Color(0xFF101010);
-const kPrimaryColor = Color(0xFF537264);
+const kPrimaryColor = StyleDictionary.colorsBasicRed50;
 const kLightGrey = Color(0xFF545454);
 const kAppBarColor = Color(0xFF1C1C1C);
 const kTextShadowColor = Color(0x4D000000);
