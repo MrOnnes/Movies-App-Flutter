@@ -1,34 +1,26 @@
 {
-  "global": {
-    "borderWidth": {
+  "borderWidth": {
+    "100": {
+      "value": "1.5",
+      "type": "borderWidth"
+    }
+  },
+  "opacity": {
+    "basic": {
       "100": {
-        "value": "1.5",
-        "type": "borderWidth"
-      }
-    },
-    "opacity": {
-      "basic": {
-        "100": {
-          "value": "0.04",
-          "type": "opacity"
-        }
-      }
-    },
-    "colors": {
-      "basic": {
-        "red": {
-          "50": {
-            "value": "#ffebee",
-            "type": "color"
-          }
-        }
+        "value": "0.04",
+        "type": "opacity"
       }
     }
   },
-  "$themes": [],
-  "$metadata": {
-    "tokenSetOrder": [
-      "global"
-    ]
+  "colors": {
+    "basic": {
+      "red": {
+        "50": {
+          "value": "#ffebee",
+          "type": "color"
+        }
+      }
+    }
   }
 }
