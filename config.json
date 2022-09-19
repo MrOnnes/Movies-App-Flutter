@@ -1,11 +1,11 @@
 {
   "source": [
-    "tokens/**/*.json"
+    "tokens/tokens_copy.json"
   ],
   "platforms": {
     "flutter": {
-      "transformGroup": "flutter",
-      "buildPath": "lib/unique_file/",
+      "transforms": ["attribute/cti", "name/cti/camel", "color/hex8flutter", "size/flutter/remToDouble", "content/flutter/literal", "asset/flutter/literal", "font/flutter/literal","colors/hex8flutter"],
+            "buildPath": "lib/unique_file/",
       "files": [
           {
               "destination": "style_dictionary.dart",
@@ -15,8 +15,8 @@
       ]
   },
   "flutter-separate": {
-      "transformGroup": "flutter-separate",
-      "buildPath": "lib/unique_file/",
+    "transforms": ["attribute/cti", "name/ti/camel", "color/hex8flutter", "size/flutter/remToDouble", "content/flutter/literal", "asset/flutter/literal", "font/flutter/literal","colors/hex8flutter"],
+    "buildPath": "lib/unique_file/",
       "files": [
           {
               "destination": "style_dictionary_color.dart",
@@ -31,80 +31,6 @@
           }
       ]
   },
-    "ios": {
-      "transformGroup": "ios",
-      "buildPath": "ios/Classes/Generated/",
-      "prefix": "StyleDictionary",
-      "files": [{
-        "destination": "StyleDictionarySize.h",
-        "format": "ios/static.h",
-        "type": "float",
-        "className": "StyleDictionarySize",
-        "filter": {
-          "attributes": {
-            "category": "size"
-          }
-        }
-      },{
-        "destination": "StyleDictionarySize.m",
-        "format": "ios/static.m",
-        "type": "float",
-        "className": "StyleDictionarySize",
-        "filter": {
-          "attributes": {
-            "category": "size"
-          }
-        }
-      },{
-        "destination": "StyleDictionaryIcons.h",
-        "format": "ios/strings.h",
-        "className": "StyleDictionaryIcons",
-        "filter": {
-          "attributes": {
-            "category": "content",
-            "type": "icon"
-          }
-        }
-      },{
-        "destination": "StyleDictionaryIcons.m",
-        "format": "ios/strings.m",
-        "className": "StyleDictionaryIcons",
-        "filter": {
-          "attributes": {
-            "category": "content",
-            "type": "icon"
-          }
-        }
-      },{
-        "destination": "StyleDictionaryColor.h",
-        "format": "ios/colors.h",
-        "className": "StyleDictionaryColor",
-        "type": "StyleDictionaryColorName",
-        "filter": {
-          "attributes": {
-            "category": "color"
-          }
-        }
-      },{
-        "destination": "StyleDictionaryColor.m",
-        "format": "ios/colors.m",
-        "className": "StyleDictionaryColor",
-        "type": "StyleDictionaryColorName",
-        "filter": {
-          "attributes": {
-            "category": "color"
-          }
-        }
-      },{
-        "destination": "StyleDictionaryProperties.h",
-        "format": "ios/singleton.h",
-        "className": "StyleDictionaryProperties"
-      },{
-        "destination": "StyleDictionaryProperties.m",
-        "format": "ios/singleton.m",
-        "className": "StyleDictionaryProperties"
-      }]
-    },
 
     "android": {
       "transformGroup": "android",

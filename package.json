@@ -1,10 +1,10 @@
 {
   "name": "style-dictionary-example-complete",
   "version": "1.0.0",
-  "description": "",
+  "description": "This starter project has everything you need to get started.",
   "main": "build.js",
   "scripts": {
-    "build": "node_modules/.bin/style-dictionary build",
+    "build": "style-dictionary build",
     "clean": "rm -rf build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,5 +12,20 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "style-dictionary": "latest"
-  }
+  },
+  "dependencies": {
+    "tinycolor2": "^1.4.2"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrOnnes/Movies-App-Flutter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MrOnnes/Movies-App-Flutter/issues"
+  },
+  "homepage": "https://github.com/MrOnnes/Movies-App-Flutter#readme"
 }
