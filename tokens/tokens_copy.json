@@ -37,7 +37,7 @@
       }
     }
   },
-  "$themes": [],
+  "$themes": ["test"],
   "$metadata": {
     "tokenSetOrder": [
       "borderWidth",
