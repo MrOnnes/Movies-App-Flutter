@@ -26,6 +26,10 @@
       "25":{
         "value":"#f5faff",
         "type":"color"
+      },
+      "50":{
+        "value":"#17c445",
+        "type":"color"
       }
     }
   },
