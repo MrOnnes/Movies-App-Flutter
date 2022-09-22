@@ -1,5 +1,10 @@
 {
-  "global": {},
+  "global": {
+    "tes": {
+      "value": "#ffff",
+      "type": "color"
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
