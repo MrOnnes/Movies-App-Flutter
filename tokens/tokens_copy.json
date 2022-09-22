@@ -21,6 +21,20 @@
           "type": "color"
         }
       }
+    },
+    "link":{
+      "25":{
+        "value":"#f5faff",
+        "type":"color"
+      }
+    }
+  },
+  "color":{
+    "link":{
+      "25":{
+        "value":"#f5faff",
+        "type":"color"
+      }
     }
   },
   "$themes": [],

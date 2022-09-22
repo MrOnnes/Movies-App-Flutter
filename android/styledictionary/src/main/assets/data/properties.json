@@ -72,6 +72,54 @@
           ]
         }
       }
+    },
+    "link": {
+      "25": {
+        "value": "#f5faff",
+        "type": "color",
+        "filePath": "tokens/tokens_copy.json",
+        "isSource": true,
+        "original": {
+          "value": "#f5faff",
+          "type": "color"
+        },
+        "name": "colors_link_25",
+        "attributes": {
+          "category": "colors",
+          "type": "link",
+          "item": "25"
+        },
+        "path": [
+          "colors",
+          "link",
+          "25"
+        ]
+      }
+    }
+  },
+  "color": {
+    "link": {
+      "25": {
+        "value": "#fff5faff",
+        "type": "color",
+        "filePath": "tokens/tokens_copy.json",
+        "isSource": true,
+        "original": {
+          "value": "#f5faff",
+          "type": "color"
+        },
+        "name": "color_link_25",
+        "attributes": {
+          "category": "color",
+          "type": "link",
+          "item": "25"
+        },
+        "path": [
+          "color",
+          "link",
+          "25"
+        ]
+      }
     }
   },
   "$themes": [],
