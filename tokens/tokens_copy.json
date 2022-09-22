@@ -44,9 +44,7 @@
   "$themes": ["test"],
   "$metadata": {
     "tokenSetOrder": [
-      "borderWidth",
-      "opacity",
-      "colors"
+      "global"
     ]
   }
 }
