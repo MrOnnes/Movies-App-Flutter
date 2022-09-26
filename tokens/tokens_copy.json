@@ -33,14 +33,25 @@
       }
     }
   },
+  "global":{
+    "color":{
+      "link":{
+        "30":{
+          "value":"#f5faff",
+          "type":"color"
+        }
+      }
+    }
+  },
   "color":{
     "link":{
-      "25":{
+      "30":{
         "value":"#f5faff",
         "type":"color"
       }
     }
   },
+  
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [

@@ -94,12 +94,62 @@
           "link",
           "25"
         ]
+      },
+      "50": {
+        "value": "#17c445",
+        "type": "color",
+        "filePath": "tokens/tokens_copy.json",
+        "isSource": true,
+        "original": {
+          "value": "#17c445",
+          "type": "color"
+        },
+        "name": "colors_link_50",
+        "attributes": {
+          "category": "colors",
+          "type": "link",
+          "item": "50"
+        },
+        "path": [
+          "colors",
+          "link",
+          "50"
+        ]
+      }
+    }
+  },
+  "global": {
+    "color": {
+      "link": {
+        "30": {
+          "value": "#f5faff",
+          "type": "color",
+          "filePath": "tokens/tokens_copy.json",
+          "isSource": true,
+          "original": {
+            "value": "#f5faff",
+            "type": "color"
+          },
+          "name": "global_color_link_30",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "link",
+            "subitem": "30"
+          },
+          "path": [
+            "global",
+            "color",
+            "link",
+            "30"
+          ]
+        }
       }
     }
   },
   "color": {
     "link": {
-      "25": {
+      "30": {
         "value": "#fff5faff",
         "type": "color",
         "filePath": "tokens/tokens_copy.json",
@@ -108,16 +158,16 @@
           "value": "#f5faff",
           "type": "color"
         },
-        "name": "color_link_25",
+        "name": "color_link_30",
         "attributes": {
           "category": "color",
           "type": "link",
-          "item": "25"
+          "item": "30"
         },
         "path": [
           "color",
           "link",
-          "25"
+          "30"
         ]
       }
     }
@@ -125,9 +175,7 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "borderWidth",
-      "opacity",
-      "colors"
+      "global"
     ]
   }
 }
