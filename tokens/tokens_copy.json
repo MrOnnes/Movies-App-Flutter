@@ -1,15 +1,25 @@
 {
+  "global": {
+    "color": {
+      "link": {
+        "30": {
+          "value": "#f5faff",
+          "type": "color"
+        }
+      }
+    }
+  },
   "borderWidth": {
     "100": {
       "value": "1.5",
       "type": "borderWidth"
     }
   },
-  "opacity": {
-    "basic": {
-      "100": {
-        "value": "0.04",
-        "type": "opacity"
+  "color": {
+    "link": {
+      "30": {
+        "value": "#f5faff",
+        "type": "color"
       }
     }
   },
@@ -22,32 +32,14 @@
         }
       }
     },
-    "link":{
-      "25":{
-        "value":"#f5faff",
-        "type":"color"
+    "link": {
+      "25": {
+        "value": "#f5faff",
+        "type": "color"
       },
-      "50":{
-        "value":"#17c445",
-        "type":"color"
-      }
-    }
-  },
-  "global":{
-    "color":{
-      "link":{
-        "30":{
-          "value":"#f5faff",
-          "type":"color"
-        }
-      }
-    }
-  },
-  "color":{
-    "link":{
-      "30":{
-        "value":"#f5faff",
-        "type":"color"
+      "50": {
+        "value": "#17c445",
+        "type": "color"
       }
     }
   },
@@ -61,13 +53,50 @@
       "value": "4.0",
       "type": "borderRadius",
       "description": "extra small"
+    },
+    "s": {
+      "value": "8.0",
+      "type": "borderRadius",
+      "description": "small"
+    },
+    "m": {
+      "value": "12.0",
+      "type": "borderRadius",
+      "description": "medium"
+    },
+    "l": {
+      "value": "16.0",
+      "type": "borderRadius",
+      "description": "large"
+    },
+    "xl": {
+      "value": "28.0",
+      "type": "borderRadius",
+      "description": "extra large"
+    },
+    "full": {
+      "value": "100.0",
+      "type": "borderRadius",
+      "description": "full\n"
     }
   },
-  
+  "opacity": {
+    "basic": {
+      "100": {
+        "value": "0.04",
+        "type": "opacity"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "global"
+      "global",
+      "borderWidth",
+      "color",
+      "colors",
+      "corner",
+      "opacity"
     ]
   }
 }
