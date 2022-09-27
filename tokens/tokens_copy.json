@@ -65,7 +65,7 @@
       "description": "medium"
     },
     "l": {
-      "value": "16.0",
+      "value": "35.0",
       "type": "borderRadius",
       "description": "large"
     },
