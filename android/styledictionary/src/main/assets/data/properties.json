@@ -1,4 +1,33 @@
 {
+  "global": {
+    "color": {
+      "link": {
+        "30": {
+          "value": "#f5faff",
+          "type": "color",
+          "filePath": "tokens/tokens_copy.json",
+          "isSource": true,
+          "original": {
+            "value": "#f5faff",
+            "type": "color"
+          },
+          "name": "global_color_link_30",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "link",
+            "subitem": "30"
+          },
+          "path": [
+            "global",
+            "color",
+            "link",
+            "30"
+          ]
+        }
+      }
+    }
+  },
   "borderWidth": {
     "100": {
       "value": "1.5",
@@ -20,27 +49,27 @@
       ]
     }
   },
-  "opacity": {
-    "basic": {
-      "100": {
-        "value": "0.04",
-        "type": "opacity",
+  "color": {
+    "link": {
+      "30": {
+        "value": "#fff5faff",
+        "type": "color",
         "filePath": "tokens/tokens_copy.json",
         "isSource": true,
         "original": {
-          "value": "0.04",
-          "type": "opacity"
+          "value": "#f5faff",
+          "type": "color"
         },
-        "name": "opacity_basic_100",
+        "name": "color_link_30",
         "attributes": {
-          "category": "opacity",
-          "type": "basic",
-          "item": "100"
+          "category": "color",
+          "type": "link",
+          "item": "30"
         },
         "path": [
-          "opacity",
-          "basic",
-          "100"
+          "color",
+          "link",
+          "30"
         ]
       }
     }
@@ -118,60 +147,6 @@
       }
     }
   },
-  "global": {
-    "color": {
-      "link": {
-        "30": {
-          "value": "#f5faff",
-          "type": "color",
-          "filePath": "tokens/tokens_copy.json",
-          "isSource": true,
-          "original": {
-            "value": "#f5faff",
-            "type": "color"
-          },
-          "name": "global_color_link_30",
-          "attributes": {
-            "category": "global",
-            "type": "color",
-            "item": "link",
-            "subitem": "30"
-          },
-          "path": [
-            "global",
-            "color",
-            "link",
-            "30"
-          ]
-        }
-      }
-    }
-  },
-  "color": {
-    "link": {
-      "30": {
-        "value": "#fff5faff",
-        "type": "color",
-        "filePath": "tokens/tokens_copy.json",
-        "isSource": true,
-        "original": {
-          "value": "#f5faff",
-          "type": "color"
-        },
-        "name": "color_link_30",
-        "attributes": {
-          "category": "color",
-          "type": "link",
-          "item": "30"
-        },
-        "path": [
-          "color",
-          "link",
-          "30"
-        ]
-      }
-    }
-  },
   "corner": {
     "none": {
       "value": "0.0",
@@ -214,12 +189,147 @@
         "corner",
         "xs"
       ]
+    },
+    "s": {
+      "value": "8.0",
+      "type": "borderRadius",
+      "description": "small",
+      "filePath": "tokens/tokens_copy.json",
+      "isSource": true,
+      "original": {
+        "value": "8.0",
+        "type": "borderRadius",
+        "description": "small"
+      },
+      "name": "corner_s",
+      "attributes": {
+        "category": "corner",
+        "type": "s"
+      },
+      "path": [
+        "corner",
+        "s"
+      ]
+    },
+    "m": {
+      "value": "12.0",
+      "type": "borderRadius",
+      "description": "medium",
+      "filePath": "tokens/tokens_copy.json",
+      "isSource": true,
+      "original": {
+        "value": "12.0",
+        "type": "borderRadius",
+        "description": "medium"
+      },
+      "name": "corner_m",
+      "attributes": {
+        "category": "corner",
+        "type": "m"
+      },
+      "path": [
+        "corner",
+        "m"
+      ]
+    },
+    "l": {
+      "value": "16.0",
+      "type": "borderRadius",
+      "description": "large",
+      "filePath": "tokens/tokens_copy.json",
+      "isSource": true,
+      "original": {
+        "value": "16.0",
+        "type": "borderRadius",
+        "description": "large"
+      },
+      "name": "corner_l",
+      "attributes": {
+        "category": "corner",
+        "type": "l"
+      },
+      "path": [
+        "corner",
+        "l"
+      ]
+    },
+    "xl": {
+      "value": "28.0",
+      "type": "borderRadius",
+      "description": "extra large",
+      "filePath": "tokens/tokens_copy.json",
+      "isSource": true,
+      "original": {
+        "value": "28.0",
+        "type": "borderRadius",
+        "description": "extra large"
+      },
+      "name": "corner_xl",
+      "attributes": {
+        "category": "corner",
+        "type": "xl"
+      },
+      "path": [
+        "corner",
+        "xl"
+      ]
+    },
+    "full": {
+      "value": "100.0",
+      "type": "borderRadius",
+      "description": "full\n",
+      "filePath": "tokens/tokens_copy.json",
+      "isSource": true,
+      "original": {
+        "value": "100.0",
+        "type": "borderRadius",
+        "description": "full\n"
+      },
+      "name": "corner_full",
+      "attributes": {
+        "category": "corner",
+        "type": "full"
+      },
+      "path": [
+        "corner",
+        "full"
+      ]
+    }
+  },
+  "opacity": {
+    "basic": {
+      "100": {
+        "value": "0.04",
+        "type": "opacity",
+        "filePath": "tokens/tokens_copy.json",
+        "isSource": true,
+        "original": {
+          "value": "0.04",
+          "type": "opacity"
+        },
+        "name": "opacity_basic_100",
+        "attributes": {
+          "category": "opacity",
+          "type": "basic",
+          "item": "100"
+        },
+        "path": [
+          "opacity",
+          "basic",
+          "100"
+        ]
+      }
     }
   },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "global"
+      "global",
+      "borderWidth",
+      "color",
+      "colors",
+      "corner",
+      "opacity"
     ]
   }
 }

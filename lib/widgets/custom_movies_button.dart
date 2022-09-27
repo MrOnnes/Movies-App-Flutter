@@ -26,7 +26,7 @@ class CustomMoviesButton extends StatelessWidget {
           decoration: BoxDecoration(
               //borderRadius: BorderRadius.circular(22.0.sp), color: color),
               borderRadius:
-                  BorderRadius.all(Radius.circular(StyleDictionary.cornerXs)),
+                  BorderRadius.all(Radius.circular(StyleDictionary.cornerL)),
               color: kPrimaryColor),
           child: Padding(
             padding: EdgeInsets.symmetric(horizontal: 5.0.w, vertical: 1.5.h),
