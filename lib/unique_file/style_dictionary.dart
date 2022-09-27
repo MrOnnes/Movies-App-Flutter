@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 26 Sep 2022 08:40:57 GMT
+// Generated on Tue, 27 Sep 2022 03:10:32 GMT
 
 
 
@@ -18,6 +18,8 @@ class StyleDictionary {
     static const colorsBasicRed50 = Color(0xFF17C445);
     static const colorsLink25 = Color(0xFFF5FAFF);
     static const colorsLink50 = Color(0xFF17C445);
+    static const cornerNone = 0.0;
+    static const cornerXs = 4.0;
     static const globalColorLink30 = #f5faff;
     static const opacityBasic100 = 0.04;
 }

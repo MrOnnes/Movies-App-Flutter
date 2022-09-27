@@ -17,7 +17,7 @@
     "basic": {
       "red": {
         "50": {
-          "value": "#17c445",
+          "value": "#17C445",
           "type": "color"
         }
       }
@@ -49,6 +49,18 @@
         "value":"#f5faff",
         "type":"color"
       }
+    }
+  },
+  "corner": {
+    "none": {
+      "value": "0.0",
+      "type": "borderRadius",
+      "description": "no rounding"
+    },
+    "xs": {
+      "value": "4.0",
+      "type": "borderRadius",
+      "description": "extra small"
     }
   },
   

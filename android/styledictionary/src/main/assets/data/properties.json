@@ -49,12 +49,12 @@
     "basic": {
       "red": {
         "50": {
-          "value": "#17c445",
+          "value": "#17C445",
           "type": "color",
           "filePath": "tokens/tokens_copy.json",
           "isSource": true,
           "original": {
-            "value": "#17c445",
+            "value": "#17C445",
             "type": "color"
           },
           "name": "colors_basic_red_50",
@@ -170,6 +170,50 @@
           "30"
         ]
       }
+    }
+  },
+  "corner": {
+    "none": {
+      "value": "0.0",
+      "type": "borderRadius",
+      "description": "no rounding",
+      "filePath": "tokens/tokens_copy.json",
+      "isSource": true,
+      "original": {
+        "value": "0.0",
+        "type": "borderRadius",
+        "description": "no rounding"
+      },
+      "name": "corner_none",
+      "attributes": {
+        "category": "corner",
+        "type": "none"
+      },
+      "path": [
+        "corner",
+        "none"
+      ]
+    },
+    "xs": {
+      "value": "4.0",
+      "type": "borderRadius",
+      "description": "extra small",
+      "filePath": "tokens/tokens_copy.json",
+      "isSource": true,
+      "original": {
+        "value": "4.0",
+        "type": "borderRadius",
+        "description": "extra small"
+      },
+      "name": "corner_xs",
+      "attributes": {
+        "category": "corner",
+        "type": "xs"
+      },
+      "path": [
+        "corner",
+        "xs"
+      ]
     }
   },
   "$themes": [],
